@@ -1,4 +1,3 @@
-"""
 Módulo de gestión de carrito de compras.
 
 Requisitos:
@@ -9,4 +8,3 @@ Requisitos:
     R5: No se pueden aplicar ambos descuentos simultáneamente; prevalece el mayor.
     R6: Eliminar producto; si cantidad llega a 0, removerlo del carrito.
     R7: El carrito expira si pasan 30 minutos sin actividad.
-"""
