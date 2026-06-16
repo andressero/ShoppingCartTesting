@@ -1,0 +1,12 @@
+"""
+Módulo de gestión de carrito de compras.
+
+Requisitos:
+    R1: Agregar producto al carrito; si ya existe, incrementar cantidad.
+    R2: No se puede agregar más unidades de las disponibles en stock.
+    R3: Descuento del 10% si el total supera $100.
+    R4: Descuento del 20% si el usuario tiene membresía premium.
+    R5: No se pueden aplicar ambos descuentos simultáneamente; prevalece el mayor.
+    R6: Eliminar producto; si cantidad llega a 0, removerlo del carrito.
+    R7: El carrito expira si pasan 30 minutos sin actividad.
+"""
